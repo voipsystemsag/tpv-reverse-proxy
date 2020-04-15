@@ -1,0 +1,5 @@
+/vendor/
+/.env
+/.php_cs.cache
+/.idea
+/*.iml

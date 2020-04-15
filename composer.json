@@ -1,0 +1,26 @@
+{
+    "name": "voipsystemsag/tpv-reverse-proxy",
+    "description": "Reverse proxy for TPV API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VOIP SYSTEMS A.G.",
+            "email": "dev@iplogin.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Tpv\\ReverseProxy\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "sabre/http": "^5.1",
+        "symfony/dotenv": "^5.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    }
+}
